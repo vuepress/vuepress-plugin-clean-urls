@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-clean-urls",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.js",
   "description": "A VuePress plugin that provides support for clean urls.",
   "author": "Shigma <1700011071@pku.edu.cn>",
@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "vuepress": "^1.0.0-alpha.44",
-    "vuepress-plugin-clean-urls": "^1.0.0",
+    "vuepress-plugin-clean-urls": "^1.0.1",
     "vuepress-theme-contrib": "^1.0.0-alpha.1"
   },
   "keywords": [

@@ -2,8 +2,8 @@
 
 ## normalSuffix
 
-- Type: `string`
-- Default: `'/'`
+- **type:** `string`
+- **default:** `'/'`
 
 The suffix for normal pages. For example, `foo/bar.md` will become:
 
@@ -13,8 +13,8 @@ The suffix for normal pages. For example, `foo/bar.md` will become:
 
 ## indexSuffix
 
-- Type: `string`
-- Default: `'/'`
+- **type:** `string`
+- **default:** `'/'`
 
 The suffix for index pages. For example, `foo/index.md` will become:
 
@@ -25,3 +25,10 @@ The suffix for index pages. For example, `foo/index.md` will become:
 ::: tip
 An index page is a page with a file name of `index.md` or `readme.md` (case insensitive).
 :::
+
+## notFoundPath
+
+- **type:** `string`
+- **default:** `'/404.html'`
+
+URL for "404 not found" page.

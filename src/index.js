@@ -2,13 +2,17 @@ module.exports = (options = {}, context) => {
   const {
     normalSuffix = '/',
     indexSuffix = '/',
+    notFoundPath = '/404.html',
   } = options
 
   return {
     extendPageData (page) {
       const { regularPath, frontmatter = {}} = page
       if (frontmatter.permalink) return
-      if (regularPath.endsWith('.html')) {
+      if (regularPath === '/404.html') {
+        // path for 404 page
+        page.path = notFoundPath
+      } else if (regularPath.endsWith('.html')) {
         // normal path
         // e.g. foo/bar.md -> foo/bar.html
         page.path = regularPath.slice(0, -5) + normalSuffix
