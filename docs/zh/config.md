@@ -26,7 +26,7 @@
 索引页面是指文件名为 `index.md` 或者 `readme.md` 的页面（不区分大小写）。
 :::
 
-### notFoundPath
+## notFoundPath
 
 - **类型:** `string`
 - **默认值:** `'/404.html'`
