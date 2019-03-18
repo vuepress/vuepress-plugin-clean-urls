@@ -1,6 +1,5 @@
-# [vuepress-plugin-clean-urls](https://vuepress-contrib.github.io/vuepress-plugin-clean-urls/)
+# [vuepress-plugin-clean-urls](https://vuepress.github.io/plugins/clean-urls.html)
 
-[![Build Status](https://travis-ci.org/vuepress-contrib/vuepress-plugin-clean-urls.svg?branch=master)](https://travis-ci.org/vuepress-contrib/vuepress-plugin-clean-urls)
 [![npm](https://img.shields.io/npm/v/vuepress-plugin-clean-urls.svg)](https://www.npmjs.com/package/vuepress-plugin-clean-urls)
 
 A [VuePress](https://vuepress.vuejs.org/) plugin that provides support for clean urls.
