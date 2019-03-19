@@ -1,6 +1,6 @@
 module.exports = (options = {}, context) => {
   const {
-    normalSuffix = '/',
+    normalSuffix = '',
     indexSuffix = '/',
     notFoundPath = '/404.html',
   } = options

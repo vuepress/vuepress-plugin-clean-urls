@@ -18,7 +18,7 @@ This plugin will always work on your dev server, but VuePress **does not have th
 ### normalSuffix
 
 - **type:** `string`
-- **default:** `'/'`
+- **default:** `''`
 
 The suffix for normal pages. For example, `foo/bar.md` will become:
 

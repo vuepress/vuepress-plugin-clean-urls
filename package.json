@@ -1,16 +1,16 @@
 {
   "name": "vuepress-plugin-clean-urls",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "main": "src/index.js",
   "description": "A VuePress plugin that provides support for clean urls.",
   "author": "Shigma <1700011071@pku.edu.cn>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vuepress-contrib/vuepress-plugin-clean-urls.git"
+    "url": "https://github.com/vuepress/vuepress-plugin-clean-urls.git"
   },
   "bugs": {
-    "url": "https://github.com/vuepress-contrib/vuepress-plugin-clean-urls/issues"
+    "url": "https://github.com/vuepress/vuepress-plugin-clean-urls/issues"
   },
   "homepage": "https://vuepress.github.io/plugins/clean-urls.html",
   "keywords": [
